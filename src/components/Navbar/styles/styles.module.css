@@ -1,0 +1,45 @@
+@import url('../../../styles/variables/colors/colors.css');
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--darkGrey);
+    color: var(--white);
+    padding: 0 2rem;
+    height: 8rem;
+    z-index: 2000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: background-color .3s linear;
+    box-shadow: 0 0.1rem 0.3rem rgba(0,0,0,0.40);
+    opacity: 0.98;
+}
+
+.companyName,
+.menuItems,
+.phoneNumber {
+    display: flex;
+    align-items: center;
+}
+
+.menuItem {
+    margin-right: 20px;
+}
+
+/* Медиазапрос для адаптивного дизайна (если необходимо) */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .menuItems {
+        margin-top: 10px;
+    }
+
+    .menuItem {
+        margin: 0;
+    }
+}

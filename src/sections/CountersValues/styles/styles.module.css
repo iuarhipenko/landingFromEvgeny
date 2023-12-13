@@ -1,0 +1,40 @@
+@import url('../../../styles/global/global.css');
+
+.countersValues {
+   background-color: black;
+    opacity: 0.95;
+    font-family: 'TildaSans',Arial,sans-serif;
+}
+
+.countWrapper {
+    max-width: 32rem;
+}
+
+.counters {
+    max-width: 1200px;
+    min-height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.count {
+    padding-top: 8px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 72px;
+    line-height: 1.17;
+    font-weight: 600;
+}
+
+.countText {
+    padding-top: 4px;
+    padding-bottom: 6px;
+    text-align: center;
+    color: #fff;
+    margin: 0 20px;
+    font-size: 18px;
+    line-height: 1.55;
+}

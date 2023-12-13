@@ -1,0 +1,27 @@
+@import url('../../../../../styles/global/global.css');
+
+.itemList {
+    max-width: 32rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-color: burlywood;
+}
+
+.title {
+    margin-top: 18px;
+    margin-bottom: 25px;
+    font-size: 24px;
+    line-height: 1.35;
+}
+
+.subText {
+    font-size: 16px;
+    line-height: 1.55;
+}
